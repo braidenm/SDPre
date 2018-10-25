@@ -27,7 +27,7 @@ public class ComparingNumbers {
     }
     if ( first != second)
       System.out.println( first + " is NOT EQUAL TO " + second );
-    
+      System.out.println( "Hey." );
 
   }
 }
