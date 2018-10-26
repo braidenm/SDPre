@@ -15,7 +15,8 @@ public class KeepGuessing {
     while ( secret != guess ) {
       System.out.println( "that is incorrect. Guess again." );
       System.out.print( "Your guess: ");
+      guess = keyboard.nextInt();
     }
-    System.out.print( "That's right! You're a good guesser." );
+    System.out.println( "That's right! You're a good guesser." );
   }
 }
