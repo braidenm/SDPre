@@ -1,7 +1,7 @@
 public class MathOperations {
   public static void main( String[] args ) {
     int a, b, c, d, e, f, g;
-    double x, y, z;
+    double x, y, z, t, q;
     String one, two, both;
 
     a = 10;
@@ -26,6 +26,11 @@ public class MathOperations {
     z = b / 2;
     System.out.println( "B/2 is " + z );
     System.out.println();
+
+    t = x*3.14;
+    System.out.print("x  times pi is:" + t);
+    q = t*20;
+    System.out.println(t + " times 20 is: " +q);
 
     one= "dog";
     two= "house";
