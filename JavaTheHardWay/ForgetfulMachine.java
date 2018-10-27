@@ -15,6 +15,7 @@ public class ForgetfulMachine {
 
     System.out.println( "Is there anything else you would like to say?" );
     keyboard.next();
-
+//the program blows up if I type a word in the second question
+//could not blow up the string
   }
 }
