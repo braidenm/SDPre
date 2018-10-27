@@ -8,11 +8,13 @@ public class EscapeSequencesComments {
     System.out.print( "Jello\by\n" ); //This line prints Jelly.
     /* The quick brown fo jumped over a lazy dog.
     Quick wafting zephyrs vex bold Jim. */
-    System.out /* testin */ .println( "Hard to believe, eh?" );
+    System.out /* testing */ .println( "Hard to believe, eh?" );
     System.out.println( "Suprised? /* abcde */ Or what did you expect?");
     System.out.println( "\\// _=_ \\//" );
     System.out.println( " \\\\ \\\\\\ \\\\\\\\" ); // it takes 2 to make 1
     System.out.print( "I hope you understand \" escape sequences\" now. \n" );
     // and comments. :)
+
+// did not compile when putting a comment in between println
   }
 }
